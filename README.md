@@ -8,9 +8,9 @@ This project is a demo project to extract data from the Ghana Voters' ID card us
 
 ## Live Environment
 
-- The Deployed Version of the API can be found at [not deployed yet]()
+- The Deployed Version of the API can be found at [https://voters-id-reader.onrender.com](https://voters-id-reader.onrender.com)
 
-- The API documentation for the deployment can be found at [not documented yet]().
+- The API documentation for the deployment can be found at [https://documenter.getpostman.com/view/8806007/2s8Z6x4a5Z](https://documenter.getpostman.com/view/8806007/2s8Z6x4a5Z).
 
 ## Setting up the project locally
 
