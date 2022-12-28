@@ -26,6 +26,12 @@ git clone https://github.com/buabaj/voters-id-reader
 cd voters-id-reader
 ```
 
+- Install the dependencies
+
+```bash
+go mod download
+```
+
 - Run the application
 
 ```bash
