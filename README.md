@@ -73,5 +73,6 @@ Sample JSON response to `read` endpoint
 
 ## Future Work
 
-- [ ] Add tests
+- [x] Add tests
+- [ ] Learn how to test endpoints that require file uploads
 - For this current version, the image needs to be clear and fit the corners of the ID card. This will be improved in the future to allow for images that are not clear and do not fit the corners of the ID card. That is, the application will be able to detect the ID card in the image and crop it out.

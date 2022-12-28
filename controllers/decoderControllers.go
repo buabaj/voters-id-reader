@@ -11,7 +11,10 @@ import (
 )
 
 func Root(c *gin.Context) {
-	c.String(200, "welcome to the voters id reader")
+	c.JSON(200, gin.H{
+		"status":  "success",
+		"message": "Welcome to the voters ID reader API",
+	})
 }
 
 func ReadID(c *gin.Context) {
