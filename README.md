@@ -44,7 +44,7 @@ go run main.go
 
 ## Sample Data
 
-Sample JSON data to test `read` endpoint
+Sample form data to test `read` endpoint
 
 ```form-data
 {
