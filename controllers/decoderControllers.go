@@ -3,6 +3,7 @@ package controllers
 import (
 	"fmt"
 	"os"
+	"strings"
 	"time"
 
 	"github.com/buabaj/voters-id-reader/utilities"
@@ -40,9 +41,9 @@ func ReadID(c *gin.Context) {
 		"status":  "success",
 		"message": "ID successfully decoded",
 		"data": gin.H{
-			"surname":            surname,
-			"firstName":          firstName,
-			"gender":             gender,
+			"surname":            strings.Title(strings.ToLower(surname)),
+			"firstName":          strings.Title(strings.ToLower(firstName)),
+			"gender":             strings.Title(strings.ToLower(gender)),
 			"dateOfBirth":        dateOfBirth,
 			"pollingStationCode": pollingStationCode,
 			"dateOfRegistration": dateOfRegistration,
